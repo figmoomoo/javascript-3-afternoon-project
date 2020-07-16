@@ -59,10 +59,15 @@ function greeting( obj ) {
 */
 
 //Code Here
+// function totalPopulation ({utah, california, texas, arizona}){
+//   let state = [];
+//   state.push()
+//   return state
+// }
+//????
 function totalPopulation ({utah, california, texas, arizona}){
-  let state = [];
-  state.push()
-  return state
+  let states 
+  return states;
 }
 
 
@@ -127,5 +132,7 @@ function largeNumbers ({first, second, third}){
 */
 
 //Code Here
+function numberGroups({a, b, c}){
 
+}
 
