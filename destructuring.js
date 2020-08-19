@@ -59,16 +59,15 @@ function greeting( obj ) {
 */
 
 //Code Here
-// function totalPopulation ({utah, california, texas, arizona}){
-//   let state = [];
-//   state.push()
-//   return state
-// }
-//????
-function totalPopulation ({utah, california, texas, arizona}){
-  let states 
-  return states;
+function totalPopulation (object){
+  let {utah, california, texas, arizona} = object;
+  return utah + california + texas + arizona
 }
+//????
+// function totalPopulation (obj){
+//   let  
+//   return states;
+// }
 
 
 ////////// PROBLEM 4 //////////
@@ -133,6 +132,10 @@ function largeNumbers ({first, second, third}){
 
 //Code Here
 function numberGroups({a, b, c}){
-
+  if (a.length > b.length && a.length > c.length){
+    return a;
+  }else if (b.length > c.length){
+    return b;
+  }else return c;
 }
 
